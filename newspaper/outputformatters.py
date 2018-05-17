@@ -52,8 +52,8 @@ class OutputFormatter(object):
 
         self.links_to_text()
         self.add_newline_to_br()
-        self.add_newline_to_li()
         self.replace_with_text()
+        self.add_newline_to_li()
         self.remove_empty_tags()
         self.remove_trailing_media_div()
         text = self.convert_to_text()
